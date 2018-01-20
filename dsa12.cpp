@@ -27,8 +27,8 @@ int binarysearch_l(int A[],int x,int n){
 		else low = mid +1;
 	}
 	return answer;
-}
 
+}
 int main(){
 	int A[100];int n;int x;
 	cin >> n >> x;
