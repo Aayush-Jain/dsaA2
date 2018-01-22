@@ -40,7 +40,7 @@ int main(){
 	Quicksort(A,0,n-1);
 	cout << "index" <<	"	" << "value" << endl;
 	for(int i=0;i<n;i++){
-		if(A[i]!=B[i]) cout << i  << endl;
+		if(A[i]!=B[i]) cout << i  << '\n';
 	}
 	return 0;
 }
