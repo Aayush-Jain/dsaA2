@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-void update(int color[8][8],int r,int c){
-	for(int i=0;i<8;i++){
+void update(int color[8][8],int r,int c){    //updates the color[][] to 1 which represents that that block
+	for(int i=0;i<8;i++){                    //can be attacked by some queen
 		color[r][i] = 1;
 		color[i][c] = 1;
 	}
